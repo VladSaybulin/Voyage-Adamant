@@ -38,7 +38,5 @@ namespace Game
 
         public bool HasLevel(int levelNumber) => levelNumber < levels.Count;
 
-        public Level GetLevel(int levelNumber) => HasLevel(levelNumber) ? levels[levelNumber] : null;
-        
     }
 }
