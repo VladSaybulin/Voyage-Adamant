@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93387a32644d4a818991c3e85474239f, type: 3}
+  m_Name: level01
+  m_EditorClassIdentifier: 
+  time: 20
+  amountDiamonds: 8
+  nullBonusChance: 10
+  entityScale: 1
+  minDurationMove: 10
+  maxDurationMove: 15
+  diamondParamsList:
+  - color: {r: 1, g: 0.9747957, b: 0, a: 1}
+    hp: 1
+    needCollect: 15
+    chance: 1
+  bonusParamsList:
+  - prefab: {fileID: 4884909560712810846, guid: b5bccf38d1b58b94aa5e9c2f15fbaf59, type: 3}
+    chance: 1
