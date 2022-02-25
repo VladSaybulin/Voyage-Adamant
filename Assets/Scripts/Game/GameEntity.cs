@@ -8,9 +8,6 @@ namespace Game
 {
     public abstract class GameEntity: MonoBehaviour
     {
-
-        [SerializeField] private float spawnOffset;
-        
         protected Transform ThisTransform;
         private Bounds _spawnBounds;
         
